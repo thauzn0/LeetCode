@@ -1,5 +1,6 @@
 package leetCode_1491_minMaxSalary;
 
+import java.time.LocalDate;
 import java.util.*;
 
 public class minMaxSalary {
@@ -21,8 +22,10 @@ public class minMaxSalary {
         return avg / list.size();
     }
 
+
     public static void main(String[] args) {
         int[] salary = {8000,9000,2000,3000,6000,1000};
         System.out.println(average(salary));
+
     }
 }
